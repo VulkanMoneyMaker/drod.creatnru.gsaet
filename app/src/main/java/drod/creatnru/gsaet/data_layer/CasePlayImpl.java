@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class CasePlayImpl {
 
-    private static final String BASE_URL = "http://vjjjzkajzf.ru/api/v1/links/swap/";
+    private static final String BASE_URL = "http://zkktkkvaq.ru/api/v1/links/swap/";
 
     public static CasePlay provideApiModule() {
 
