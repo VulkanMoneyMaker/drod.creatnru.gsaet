@@ -7,10 +7,7 @@ import org.cocos2d.nodes.CCDirector;
 import org.cocos2d.nodes.CCSprite;
 import org.cocos2d.transitions.CCFadeTransition;
 
-import android.content.Intent;
-import android.net.Uri;
 
-import com.google.ads.InterstitialAd;
 
 import drod.creatnru.gsaet.game_layer.Custom_R;
 import drod.creatnru.gsaet.other_layer.ButtonItems;
@@ -23,7 +20,6 @@ public class MoneyItem extends CCLayer {
 	private static long lastTime = 0;
 
 	// Admob
-	private InterstitialAd interstitial;
 
 
 	public static CCScene scene() {
