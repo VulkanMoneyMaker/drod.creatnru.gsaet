@@ -6,8 +6,6 @@
     <string name="alert_dlg_cancel">Cancel</string>
     <string name="facebook_id">2008569222718805</string>
     <string name="vungle_id">5371abdf50de45f8320000fb</string>
-
-    <string name="more_apps_hammyliem">market://search?q=pub:HammyLiem</string>
     <string name="title_activity_scrolling">ScrollingActivity</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"

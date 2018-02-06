@@ -255,27 +255,27 @@ public class GamePlayLayer extends Activity implements AdListener, EventListener
      * Set Review Dialog
      */
     public void showReviewDialog() {
-    	String message = "Do you Like this app? Get FREE 200 coins by giving us 5 STARS review or SHARE this app to your friends!";
-		
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setMessage(message)
-            .setPositiveButton("Give Review!", new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                	Custom_R.allCoin += 200;
-                	Custom_R.saveSetting();
-                    PlayActions.giveUsReview(GamePlayLayer.this);
-                }
-            })
-            .setNegativeButton("Share with Friends!", new DialogInterface.OnClickListener() {
-				@Override
-				public void onClick(DialogInterface dialog, int which) {
-					Custom_R.allCoin += 200;
-					Custom_R.saveSetting();
-					PlayActions.shareApp(GamePlayLayer.this);
-				}
-            });
-        builder.create().show();
-    }	
+//    	String message = "Do you Like this app? Get FREE 200 coins by giving us 5 STARS review or SHARE this app to your friends!";
+//
+//        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+//        builder.setMessage(message)
+//            .setPositiveButton("Give Review!", new DialogInterface.OnClickListener() {
+//                @Override
+//                public void onClick(DialogInterface dialog, int which) {
+//                	Custom_R.allCoin += 200;
+//                	Custom_R.saveSetting();
+//                    PlayActions.giveUsReview(GamePlayLayer.this);
+//                }
+//            })
+//            .setNegativeButton("Share with Friends!", new DialogInterface.OnClickListener() {
+//				@Override
+//				public void onClick(DialogInterface dialog, int which) {
+//					Custom_R.allCoin += 200;
+//					Custom_R.saveSetting();
+//					PlayActions.shareApp(GamePlayLayer.this);
+//				}
+//            });
+//        builder.create().show();
+    }
 	
 }
