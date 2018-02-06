@@ -73,20 +73,20 @@ public class GamePlayLayer extends Activity implements AdListener, EventListener
 	    
     }
 	public void getAdmob(){
-		LinearLayout.LayoutParams adParams = new LinearLayout.LayoutParams(getWindowManager().getDefaultDisplay().getWidth() + getWindowManager().getDefaultDisplay().getWidth() - (int) Custom_R._getX(640), getWindowManager().getDefaultDisplay().getHeight()
-                + getWindowManager().getDefaultDisplay().getHeight()
-                - getWindowManager().getDefaultDisplay().getHeight() * 2 - 120);
-
-	    AdView adView = new AdView(GamePlayLayer.this, AdSize.BANNER, getResources().getString(R.string.admob_id));
-	    AdRequest adRequest = new AdRequest();
-		adView.loadAd(adRequest);    	    
-	    CCDirector.sharedDirector().getActivity().addContentView(adView, adParams);
+//		LinearLayout.LayoutParams adParams = new LinearLayout.LayoutParams(getWindowManager().getDefaultDisplay().getWidth() + getWindowManager().getDefaultDisplay().getWidth() - (int) Custom_R._getX(640), getWindowManager().getDefaultDisplay().getHeight()
+//                + getWindowManager().getDefaultDisplay().getHeight()
+//                - getWindowManager().getDefaultDisplay().getHeight() * 2 - 120);
+//
+//	    AdView adView = new AdView(GamePlayLayer.this, AdSize.BANNER, getResources().getString(R.string.admob_id));
+//	    AdRequest adRequest = new AdRequest();
+//		adView.loadAd(adRequest);
+//	    CCDirector.sharedDirector().getActivity().addContentView(adView, adParams);
 	}
 	public void getInterstitialAd(){       	
-		interstitialAd = new InterstitialAd(this, getResources().getString(R.string.admob_id));
-        interstitialAd.setAdListener(this);
-        AdRequest adRequest = new AdRequest();
-        interstitialAd.loadAd(adRequest);	  
+//		interstitialAd = new InterstitialAd(this, getResources().getString(R.string.admob_id));
+//        interstitialAd.setAdListener(this);
+//        AdRequest adRequest = new AdRequest();
+//        interstitialAd.loadAd(adRequest);
 	}
     public void getVungleAd(){
     	VunglePub.init(this, getResources().getString(R.string.vungle_id));

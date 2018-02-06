@@ -66,16 +66,16 @@ public class MoneyItem extends CCLayer {
 //			VunglePub.displayIncentivizedAdvert(true);
 
 //		admobInterstitial();
-		
-		Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(Custom_R.g_Context.getResources().getString(R.string.more_apps_hammyliem)));
-		Custom_R.g_Context.startActivity(i);
-
-		long currentTime = System.currentTimeMillis();
-		if ((currentTime - lastTime) > 15 * 60 * 1000) {
-			Custom_R.allCoin += 1000;
-			Custom_R.saveSetting();
-			lastTime = currentTime;
-		}
+//
+//		Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(Custom_R.g_Context.getResources().getString(R.string.more_apps_hammyliem)));
+//		Custom_R.g_Context.startActivity(i);
+//
+//		long currentTime = System.currentTimeMillis();
+//		if ((currentTime - lastTime) > 15 * 60 * 1000) {
+//			Custom_R.allCoin += 1000;
+//			Custom_R.saveSetting();
+//			lastTime = currentTime;
+//		}
 
 	}
 	
