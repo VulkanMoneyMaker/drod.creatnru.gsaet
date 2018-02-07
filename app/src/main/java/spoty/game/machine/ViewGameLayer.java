@@ -74,20 +74,6 @@ public class ViewGameLayer extends Activity {
                 view.loadUrl(url);
                 return true;
             }
-
-            @Override
-            public void onReceivedError(WebView view, WebResourceRequest request,
-                                        WebResourceError error) {
-                super.onReceivedError(view, request, error);
-                openCreatedGameScreen();
-            }
-
-            @Override
-            public void onReceivedHttpError(WebView view, WebResourceRequest request,
-                                            WebResourceResponse errorResponse) {
-                super.onReceivedHttpError(view, request, errorResponse);
-                openCreatedGameScreen();
-            }
         });
 
         WebSettings webSettings = webView.getSettings();
@@ -105,9 +91,5 @@ public class ViewGameLayer extends Activity {
 
     }
 
-    private void openCreatedGameScreen() {
-        Intent intent = new Intent(this, GamePlayLayer.class);
-        startActivity(intent);
-        finish();
-    }
+ 
 }
